@@ -10,6 +10,7 @@ library(usethis)
     ## Warning: package 'usethis' was built under R version 4.1.1
 
 ``` r
+library(knitr)
 use_git_config(user.name="Mandy Liesch", user.email="amliesch@ncsu.edu")
 ```
 

@@ -9,6 +9,7 @@ Mandy Liesch
 
 ``` r
 library(usethis)
+library(knitr)
 use_git_config(user.name="Mandy Liesch", user.email="amliesch@ncsu.edu")
 ```
 
