@@ -4,9 +4,9 @@ author: "Mandy Liesch"
 date: "10/7/2021"
 ---
 
-```{r setup, include=FALSE}
+```{r, eval=FALSE}
 #code to create the rendering
-rmarkdown::render("/_Rmd/Liesch_Project_Blog.Rmd", 
+rmarkdown::render("_Rmd/Liesch_Project_Blog.Rmd", 
                   output_format = "github_document", 
                   output_dir = "_posts/", 
                   output_options = list(toc=TRUE, toc_depth = 2, html_preview=FALSE))
